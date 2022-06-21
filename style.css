@@ -7,7 +7,7 @@ h1 {
     font-size: 50px;
 }
 
-.orange-color{
+.orange-color {
     color: orange;
 }
 
@@ -19,19 +19,54 @@ h1 {
 .half-width {
     width: 40%;
     padding: 4%;
-}   
+}
 
 .half-width img {
     width: 80%;
 }
 
 .link-button {
+    margin: 10%;
+    text-align: center;
+    width: 700px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 40px ;
+    color: #fff;
+    cursor: pointer;
+    margin: 2px;
+    height: 600px;
+    text-align: center;
+    border: 3px solid;
+    background-size: 300% 100%;
+
+    border-radius: 10px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
     text-decoration: none;
+    /* text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     color: white;
     font-weight: 700p;
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 7px;
+    transition: 0.3s; */
+}
+
+.link-button:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.link-button:focus {
+    outline: none;
 }
 
 .top-banner {
@@ -39,19 +74,19 @@ h1 {
     background-repeat: no-repeat;
 }
 
-.dream-big{
-    background-image: url(images/dream-bg.png)  ;
+.dream-big {
+    background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
 
-.experience-area{
+.experience-area {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
 
-.experience-item{
+.experience-item {
     width: 40%;
     padding: 20px;
     margin-left: 5%;
@@ -59,16 +94,19 @@ h1 {
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
 }
-#web-dev-experience{
+
+#web-dev-experience {
     border-left: 7px solid;
-    border-image: linear-gradient(blue,cyan);
+    border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
-#full-stack-developer{
+
+#full-stack-developer {
     border-left: 7px solid;
-    border-image: linear-gradient(salmon,tomato);
+    border-image: linear-gradient(salmon, tomato);
     border-image-slice: 1;
 }
-footer p{
+
+footer p {
     text-align: center;
 }
